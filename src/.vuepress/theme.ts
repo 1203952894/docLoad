@@ -3,11 +3,13 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  docsBranch: "",
+  hostname: "http://www.ccola.top/",
 
   author: {
     name: "Mr.Cola",
     url: "https://github.com/1203952894",
+    email: "1203952894@qq.com"
   },
 
   iconAssets: "iconfont",
@@ -47,7 +49,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "MIT Licensed | Copyright © 2022-present Mr.Cola",
 
       displayFooter: true,
 
@@ -73,11 +75,11 @@ export default hopeTheme({
       /**
        * Using Giscus
        */
-      // provider: "Giscus",
-      // repo: "vuepress-theme-hope/giscus-discussions",
-      // repoId: "R_kgDOG_Pt2A",
-      // category: "Announcements",
-      // categoryId: "DIC_kwDOG_Pt2M4COD69",
+      provider: "Giscus",
+      repo: "1203952894/gitalk",
+      repoId: "R_kgDOH7wZUg",
+      category: "Announcements",
+      categoryId: "DIC_kwDOH7wZUs4CSsKz",
 
       /**
        * Using Twikoo
@@ -88,8 +90,8 @@ export default hopeTheme({
       /**
        * Using Waline
        */
-      provider: "Waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      // provider: "Waline",
+      // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     },
 
     // Disable features you don’t want here
@@ -198,5 +200,5 @@ export default hopeTheme({
     //     ],
     //   },
     // },
-  },
+  }
 });
